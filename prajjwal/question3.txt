@@ -11,7 +11,7 @@ ANS - To combine two commits into one commit we use 'squash'
        1. git rebase -i HEAD~4
        	  After running this command on terminal, editor will get open and we have to make following changes to the editor
        2. change pick to s (squash) for the commit.
-          Save the changes and close the editor 
+          Save the changes and close the editor. 
 	  In the new window changes will be reflected.
 	  save the file and close all the commits will be into one.
 
