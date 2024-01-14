@@ -7,5 +7,5 @@ ANS - To unstage changes from staged area we use reset command
 	To unstage all changes use 
 	git reset 
 
-	To reset specific file 
-	git reset <file_path>
+	To reset specific file. 
+	git reset <file_path>.
