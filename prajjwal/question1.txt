@@ -11,4 +11,4 @@ Switch to branch where we want to add cherry
 git checkout <branch-name>
 
 Pick cherry 
-git cherry-pick <commit>
+git cherry-pick <commit>.
