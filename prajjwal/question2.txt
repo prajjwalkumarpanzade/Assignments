@@ -1,3 +1,18 @@
 Q2. How to set multiple remote repositories for the same project? Explain the use case. you should have a working demo of it.
 
 Ans - We can set multilpe remote repositories for same project by using git. 
+
+prajj@DESKTOP-5J8T83F MINGW64 /d/Josh/Assignment/prajjwal (prajjwalkumar)
+$ git remote -v
+origin  https://github.com/prajjwalkumarpanzade/Assignments.git (fetch)
+origin  https://github.com/prajjwalkumarpanzade/Assignments.git (push)
+
+prajj@DESKTOP-5J8T83F MINGW64 /d/Josh/Assignment/prajjwal (prajjwalkumar)
+$ git remote add Demo https://github.com/prajjwalkumarpanzade/Demo.git
+
+prajj@DESKTOP-5J8T83F MINGW64 /d/Josh/Assignment/prajjwal (prajjwalkumar)
+$ git remote -v
+Demo    https://github.com/prajjwalkumarpanzade/Demo.git (fetch)
+Demo    https://github.com/prajjwalkumarpanzade/Demo.git (push)
+origin  https://github.com/prajjwalkumarpanzade/Assignments.git (fetch)
+origin  https://github.com/prajjwalkumarpanzade/Assignments.git (push)
