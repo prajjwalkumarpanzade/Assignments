@@ -11,7 +11,7 @@ ANS - --force push and --force-with-lease both the methods are used for the the 
 
 	--force-with-lease
 
-	git push --force-with-lease origin <branch name>
+	git push --force-with-lease origin <branch name>.
 
 	This is the safer altenative to the --force push it has low risk of data loss.
 	This method checks if the state of remote branch matches with the expected states or not if it matches then 
