@@ -1,0 +1,24 @@
+Q5. Difference between --force push and --force-with-lease, You have to show the use of both, also you have to show in what scenario --force-with-lease is used?
+
+ANS - --force push and --force-with-lease both the methods are used for the the push changes forcefully into the repo.
+
+	--force push 
+
+	git push --force origin <branch name>
+
+	This command forcefully overwrite the remote branch with the local branch.
+	It can lead to data loss.
+
+	--force-with-lease
+
+	git push --force-with-lease origin <branch name>
+
+	This is the safer altenative to the --force push it has low risk of data loss.
+	This method checks if the state of remote branch matches with the expected states or not if it matches then 
+	it push means if someone else commit the branch then we try to push then push will get rejected.
+
+	Scenario - 
+		
+		If we are working on team project and and I want to push my changes on remote repo 
+		but at same time someone tries to push their changes on same repo then my push request will get rejected 
+		so to avoid such rejection and avoid data loss we use --force-with-lease.
