@@ -16,3 +16,71 @@ ANS - To combine two commits into one commit we use 'squash'
 	  save the file and close all the commits will be into one.
 
 
+
+
+
+prajj@DESKTOP-5J8T83F MINGW64 /d/Josh/Assignment (master)
+$ git push origin --all
+Enumerating objects: 37, done.
+Counting objects: 100% (37/37), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (32/32), done.
+Writing objects: 100% (37/37), 4.25 KiB | 256.00 KiB/s, done.
+Total 37 (delta 10), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (10/10), done.
+To https://github.com/prajjwalkumarpanzade/Assignments.git
+ * [new branch]      feature1 -> feature1
+ * [new branch]      feature2 -> feature2
+ * [new branch]      master -> master
+ * [new branch]      prajjwalkumar -> prajjwalkumar
+
+prajj@DESKTOP-5J8T83F MINGW64 /d/Josh/Assignment (master)
+pick 28ebfd0 Answer Question 3
+# This is a combination of 2 commits.
+
+[detached HEAD 91c415e] Answer Question 4 & Answer Question 5
+ Date: Sun Jan 14 19:35:20 2024 +0530
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+Successfully rebased and updated refs/heads/prajjwalkumar.
+
+prajj@DESKTOP-5J8T83F MINGW64 /d/Josh/Assignment/prajjwal (prajjwalkumar)
+$ git log
+commit 82b2905d0b8155635566ab939944f38b360b575f (HEAD -> prajjwalkumar)
+Author: Prajjwalkumar <prajjwalbpanzade22@gmail.com>
+Date:   Sun Jan 14 19:36:20 2024 +0530
+
+    Answer Question 6
+
+commit 91c415e3f9734647b46664481654b24ca7304894
+Author: Prajjwalkumar <prajjwalbpanzade22@gmail.com>
+Date:   Sun Jan 14 19:35:20 2024 +0530
+
+    Answer Question 4 & Answer Question 5
+
+commit 28ebfd0836916a5ecaf8860b03662523ac651977
+Author: Prajjwalkumar <prajjwalbpanzade22@gmail.com>
+Date:   Sun Jan 14 19:34:28 2024 +0530
+
+    Answer Question 3
+
+commit d161ac3eb1f64260457b02a326b72fff49ebc261
+Author: Prajjwalkumar <prajjwalbpanzade22@gmail.com>
+Date:   Sun Jan 14 19:33:37 2024 +0530
+
+    Answer Question 2
+
+commit 6040ade3de0d5af2ef30dbec046f89e9f1367cce
+Author: Prajjwalkumar <prajjwalbpanzade22@gmail.com>
+Date:   Sun Jan 14 17:58:28 2024 +0530
+
+    Answer Question 1
+
+commit f7f0f8f60361243f66993638b6dbc546646e9c19 (origin/master)
+Author: Prajjwalkumar <prajjwalbpanzade22@gmail.com>
+Date:   Sun Jan 14 17:38:21 2024 +0530
+
+    Add name file
+
+
+
+
