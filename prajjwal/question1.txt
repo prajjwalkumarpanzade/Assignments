@@ -1,0 +1,14 @@
+Q1. What is cherry-pick? Explain the use case of it also write steps to do it.
+
+Cherry-pick in Git is like choosing specific changes from one branch and applying them to another. 
+It is used when we want certain updates from a particular moment without taking the whole package of changes.
+
+Imagine we have a cake with different layers. Cherry-picking is like taking just the cherries (specific changes) from one slice and putting them on another slice.
+
+Steps to perform cherry-pick:
+
+Switch to branch where we want to add cherry 
+git checkout <branch-name>
+
+Pick cherry 
+git cherry-pick <commit>.
